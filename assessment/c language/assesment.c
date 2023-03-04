@@ -41,7 +41,7 @@ int main()
 	
 	
 	printf("\n\n------------------------- Multiplication ----------------------------");
-	Printf("\n");
+	printf("\n");
         mul[1][1]=mat[1][1]*mat2[1][1]+mat[1][2]*mat2[2][1];
 	mul[1][2]=mat[1][1]*mat2[1][2]+mat[1][2]*mat2[2][2];
 	mul[2][1]=mat[2][1]*mat2[1][1]+mat[2][2]*mat2[2][1];
