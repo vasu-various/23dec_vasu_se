@@ -1,0 +1,26 @@
+What do you understand By Data Redundancy?
+->
+    data redundancy refers to the duplication of data within a database. 
+This occurs when the same data is stored in multiple places, often in 
+different tables or files, within the same database.
+
+    Data redundancy can be problematic for several reasons. Firstly, it can 
+waste storage space, as multiple copies of the same data must be stored. 
+Secondly, it can lead to inconsistencies in the data, as changes made to 
+one copy of the data may not be reflected in other copies. This can result 
+in data discrepancies and inaccuracies.
+
+    In addition to these issues, data redundancy can also make it more difficult 
+to maintain and update a database, as changes must be made to multiple copies 
+of the same data. This can increase the likelihood of errors and make it more 
+time-consuming to manage the database.
+
+    To avoid data redundancy, DBMS designers aim to create normalized databases 
+that adhere to certain rules and guidelines for organizing data. Normalization 
+involves breaking down large tables into smaller, more specific tables, 
+and establishing relationships between them to reduce redundancy and improve 
+data integrity.
+
+
+
+

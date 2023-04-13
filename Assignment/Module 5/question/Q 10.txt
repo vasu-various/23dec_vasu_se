@@ -1,0 +1,17 @@
+What is trigger and how to create a Trigger in SQL? 
+->
+In SQL, a trigger is a special type of stored procedure that is automatically 
+executed in response to certain database events, such as an insert, update, 
+or delete operation on a table. The purpose of a trigger is to take some action 
+or enforce some rule when a certain event occurs.
+
+To create a trigger in SQL, you can use the following syntax:
+CREATE [OR REPLACE] TRIGGER trigger_name
+{BEFORE | AFTER} {INSERT | UPDATE | DELETE} [OF column_name]
+ON table_name
+[REFERENCING OLD AS old NEW AS new]
+[FOR EACH ROW]
+[WHEN (condition)]
+BEGIN
+-- trigger body goes here
+END;

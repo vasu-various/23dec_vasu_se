@@ -1,0 +1,10 @@
+What is DDL Interpreter? 
+->
+DDL Interpreter stands for Data Definition Language Interpreter. 
+It is a software tool that interprets and executes commands written in a 
+Data Definition Language (DDL) used to define the structure of a database.
+
+DDL is a subset of SQL (Structured Query Language) used to define the d
+atabase schema, including tables, columns, constraints, indexes, and other 
+database objects. DDL Interpreter reads and executes DDL commands to create, 
+modify or delete the database schema as per the user's instructions.

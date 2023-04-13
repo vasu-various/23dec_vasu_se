@@ -1,0 +1,14 @@
+Q.1 What do you understand By Database
+->
+A database is a collection of organized and structured data that is stored in a 
+computer or other electronic device. It is designed to store, manage, and retrieve
+large amounts of information efficiently and quickly. A database can be thought 
+of as an electronic filing cabinet where data is stored in tables that are linked 
+together.
+
+Databases are commonly used to store and manage business, scientific, 
+and personal data. They can be used for a variety of purposes, such as 
+tracking inventory, managing customer information, storing financial records,
+and analyzing scientific data. Databases can be either relational or 
+non-relational, and they can be managed using a variety of software tools and 
+programming languages.

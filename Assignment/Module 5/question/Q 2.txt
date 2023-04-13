@@ -1,0 +1,14 @@
+What is Normalization? 
+->
+    Normalization is the process of organizing data in a relational database to 
+reduce redundancy and improve data integrity. It involves breaking down a database 
+table into smaller, more manageable tables that are related to each other through 
+common fields or keys. The objective of normalization is to eliminate data 
+duplication and inconsistencies, and ensure that each piece of data is stored 
+in only one place.
+
+    Normalization is an important step in database design because it helps 
+to ensure that data is accurate, consistent, and easy to manage. 
+By breaking down large, complex tables into smaller, simpler ones, 
+normalization helps to reduce data redundancy and improve data quality, 
+which in turn makes it easier to maintain and update the database over time.
