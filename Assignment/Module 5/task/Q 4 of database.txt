@@ -1,0 +1,28 @@
+
+a- All orders for more than $1000.
+
+->SELECT * FROM orders WHERE amount > 1000;
+
+------------------------------------------------------------------------------
+b- Names and cities of all salespeople in London with commission above 0.12
+
+-> SELECT name, city FROM salespeople WHERE city = 'London' AND commission > 0.12;
+
+------------------------------------------------------------------------------
+c- All salespeople either in Barcelona or in London
+
+-> SELECT * FROM salespeople WHERE city = 'Barcelona' OR city = 'London';
+
+
+-------------------------------------------------------------------------------
+d- All salespeople with commission between 0.10 and 0.12. (Boundary values
+should be excluded).
+
+-> SELECT * FROM salespeople WHERE commission > 0.10 AND commission < 0.12;
+
+
+-------------------------------------------------------------------------------
+e- All customers excluding those with rating <= 100 unless they are located in
+Rome
+
+-> SELECT * FROM customers WHERE rating > 100 OR city = 'Rome';
