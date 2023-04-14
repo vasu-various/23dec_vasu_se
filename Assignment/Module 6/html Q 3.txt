@@ -1,0 +1,8 @@
+Q. 3 - What are void elements in HTML?
+
+In HTML, void elements are elements that do not have a closing tag. Instead, they are self-closing, and their end is indicated by a forward slash before the closing angle bracket of the opening tag.
+
+Void elements are used to insert various types of content into an HTML document, such as images, line breaks, input fields, and more. Examples of void elements include the "img" tag, the "br" tag, the "input" tag, the "meta" tag, and the "link" tag.
+
+Here is an example of a void element:
+<img src="example.jpg" alt="An example image">
