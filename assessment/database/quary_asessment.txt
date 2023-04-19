@@ -1,0 +1,8 @@
+a SQL query to find the salesperson(s) and the
+customer(s) represented here. Return the Customer Name, City, Salesman,
+commission.
+
+-->
+SELECT c.customer_name, c.city, s.name AS salesman, s.commission
+FROM Customer c
+JOIN Salesman s ON c.salesman_id = s.salesman_id;
