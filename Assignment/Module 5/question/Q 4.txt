@@ -1,0 +1,41 @@
+What is MF Cod Rule of RDBMS Systems? 
+->
+Rule 0 − Foundation rule
+    Any relational database management system that is propounded to be RDBMS or advocated to be a RDBMS should be able to manage the stored data in its entirety through its relational capabilities.
+
+Rule 1 − Rule of Information
+    Relational Databases should store the data in the form of relations. Tables are relations in Relational Database Management Systems. Be it any user defined data or meta-data, it is important to store the value as an entity in the table cells.
+
+Rule 2 − Rule of Guaranteed Access
+    The use of pointers to access data logically is strictly forbidden. Every data entity which is atomic in nature should be accessed logically by using a right combination of the name of table, primary key represented by a specific row value and column name represented by attribute value.
+
+Rule 3 − Rule of Systematic Null Value Support
+    Null values are completely supported in relational databases. They should be uniformly considered as ‘missing information’. Null values are independent of any data type. They should not be mistaken for blanks or zeroes or empty strings. Null values can also be interpreted as ‘inapplicable data’ or ‘unknown information.’
+
+Rule 4 − Rule of Active and online relational Catalog
+    In the Database Management Systems lexicon, ‘metadata’ is the data about the database or the data about the data. The active online catalog that stores the metadata is called ‘Data dictionary’. The so called data dictionary is accessible only by authored users who have the required privileges and the query languages used for accessing the database should be used for accessing the data of data dictionary.
+
+Rule 5 − Rule of Comprehensive Data Sub-language
+    A single robust language should be able to define integrity constraints, views, data manipulations, transactions and authorizations. If the database allows access to the aforementioned ones, it is violating this rule.
+
+Rule 6 − Rule of Updating Views
+    Views should reflect the updates of their respective base tables and vice versa. A view is a logical table which shows restricted data. Views generally make the data readable but not modifiable. Views help in data abstraction.
+
+Rule 7 − Rule of Set level insertion, update and deletion
+    A single operation should be sufficient to retrieve, insert, update and delete the data.
+
+Rule 8 − Rule of Physical Data Independence
+    Batch and end user operations are logically separated from physical storage and respective access methods.
+
+Rule 9 − Rule of Logical Data Independence
+    Batch and end users can change the database schema without having to recreate it or recreate the applications built upon it.
+
+Rule 10 − Rule of Integrity Independence
+    Integrity constraints should be available and stored as metadata in data dictionary and not in the application programs.
+
+Rule 11 − Rule of Distribution Independence
+    The Data Manipulation Language of the relational system should not be concerned about the physical data storage and no alterations should be required if the physical data is centralized or distributed.
+
+Rule 12 − Rule of Non Subversion
+    Any row should obey the security and integrity constraints imposed. No special privileges are applicable.
+
