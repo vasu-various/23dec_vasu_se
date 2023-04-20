@@ -1,7 +1,0 @@
-Q. 2 - What are tags and attributes in HTML?
-
-->  In HTML, tags are used to define the structure and content of a web page. Tags are enclosed in angle brackets and typically come in pairs, with a starting tag and an ending tag. For example, the <p> tag is used to define a paragraph, and the text that is included between the <p> and </p> tags is considered to be a part of that paragraph.
-
-Attributes, on the other hand, provide additional information about an HTML element. They are used to modify the behavior or appearance of a tag, and are included within the opening tag of an element. For example, the <img> tag is used to display an image on a web page, and it includes attributes such as "src" (which specifies the URL of the image file), "alt" (which provides a text description of the image for users who are visually impaired), and "width" and "height" (which specify the dimensions of the image).
-
-Attributes can also be used to provide links to other web pages or to specify formatting styles for text or other elements. Some common attributes include "href" (which specifies the URL of a hyperlink), "class" (which specifies a CSS class to be applied to an element), and "style" (which allows for inline styling of an element).
