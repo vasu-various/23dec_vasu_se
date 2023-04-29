@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+body {
+    
+    background-size:100%;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    height:100%;
+    width:100%;
+    
+}
+div.header
+{
+    color: black;
+    text-align: center;
+    margin-top: 25px;
+    top: 0%;
+}
+div.con
+{
+    height: 500px;
+    width: 900px;
+    background-color: white;
+}
