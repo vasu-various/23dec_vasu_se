@@ -1,38 +1,27 @@
 body
 {
-    background-color: black;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
 }
-h1{
-    text-align: center;
-    color: white;
-}
-
-hr
+div
 {
-    color: white;
+    margin-top: 120px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
 }
-h2
-{
-    color: cyan;
-    text-align: center;
+h2{
+    margin-left: 450px;
+   
+    color: rgb(125, 37, 71);
 }
-ul {
-    color: white;
-    padding-left: 100px;
-    padding-right: 100px;
-    font-size: 21px;
+ul{
+    margin: 40px 350px;
+    font-size: 18px;
+    color: rgb(140, 71, 26);
+    font-weight: 600;
 }
-
-
-
 p{
- color: yellow;
-}
-img
-{
-    width: 1290px;
-    color: white;
+    margin-left: 10px;
+    color: red;
 }
