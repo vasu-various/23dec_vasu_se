@@ -25,3 +25,8 @@ p{
     margin-left: 10px;
     color: red;
 }
+ul.Example
+{
+    margin: auto;
+    list-style: disc;
+}
