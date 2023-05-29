@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hul{
+    text-align: center;
+}
+.himg{
+    height: 50px;
+    
+}
+.content
+{
+    height: 600px;
+    width: 100%;
+}
+.lside
+{
+    height: 600px;
+    width: 20%;
+    background-color: rgb(216, 215, 215);
+    float: left;
+}
+.main
+{
+    height: 600px;
+    width: 80%;
+    background-color: white;
+    float: left;
+}
+.lul
+{
+    margin-left: 18px;
+}
+.lul li
+{
+    margin-left: 5px;
+    list-style: none;
+    margin-top: 5px;
+}
+.lul li:hover
+{
+    background-color: rgb(162, 162, 162);
+}
+.lul li:focus
+{
+    background-color: rgb(9, 9, 56);
+}
+
+.lul li a
+{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.l1{
+    margin-top: 15px;
+}
+.header{
+    height: 55px;
+    width: 100%;
+    background-color: white;
+}
+.nul{
+    height: 50px;
+    width: auto;
+    background: #000;
+    text-align: center;
+    line-height: 50px;
+}
+.nli{
+    display: inline-block;
+    list-style: none;
+    margin: 3px;
+    padding: 0px 50px;
+}
+.na{
+    color: #0ff;
+    text-decoration: none;
+    transition: 1s;
+    font-size: 20px;
+    padding: 10px;
+}
+.na:hover{
+    background-color: #0ff;
+    color: black;
+}
