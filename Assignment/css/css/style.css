@@ -3,6 +3,25 @@
     padding: 0;
     box-sizing: border-box;
 }
+.ans
+{
+    font-size: 22px;
+    margin-top: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+    color: rgb(14, 14, 63);
+}
+.Q{
+    color: maroon;
+    text-align: center;
+    margin-top: 25px;
+}
+.home
+{
+    font-size: 50px;
+    text-align: center;
+    line-height: 600px;
+}
 .footer
 {
     width: 100%;
