@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top down position</title>
+    <style>
+        body{
+            background-color: rgb(150, 229, 251);
+        }
+        .m{
+            height: 500px;
+            width: 500px;
+            background-image: url(emiway.jpg);
+            background-size: cover;
+            border: 2px solid white;
+            margin: auto;
+            position: relative;
+        }
+        .d1{
+            height: 500px;
+            width: 500px;
+            position: absolute;
+            background-color: rgba(0, 0, 000, 0.5);
+            top: 100%;
+            
+        }
+        .d2{
+            height: 500px;
+            width: 500px;
+            position: absolute;
+            background-color: rgba(0, 0, 000, 0.5);
+            bottom: 100%;
+            
+            
+        }
+        .m:hover .d1{
+            top: 0%;
+            transition: 1.5s;
+            
+        }
+        .m:hover .d2{
+            bottom: 0%;
+            transition: 1.5s;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="m">
+        <div class="d1"></div>
+        <div class="d2"></div>
+    </div>
+</body>
+</html>
