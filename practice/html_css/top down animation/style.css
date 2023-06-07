@@ -1,0 +1,30 @@
+.parent{
+    height: 500px;
+    width: 600px;
+    background-image: url(rohit.webp);
+    background-size: 100% 100%;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+}
+.child{
+    height: 500px;
+    width: 600px;
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    transition: 1s;
+}
+.parent .ch-1{ 
+    top: 100%;
+}
+.parent .ch-2{          
+    bottom: 100%;
+}
+.parent:hover .ch-1{
+    top: 0;
+    left: 0;
+}
+.parent:hover .ch-2{
+    bottom: 0;
+    right: 0;
+}
