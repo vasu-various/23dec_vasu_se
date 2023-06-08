@@ -1,8 +1,17 @@
 h1{
     color:white;
-    text-align: center;
     font-size: 50px;
- 
+    display: inline-block;
+    margin: 20px 600px;
+    position: relative;
+
+}
+
+h1::after
+{
+    content: ' ';
+    position: absolute;
+    border-bottom: 2px solid red;
 }
 body
 {
