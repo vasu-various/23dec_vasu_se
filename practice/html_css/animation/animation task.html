@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        div{
+            height: 250px;
+            width: 250px;
+            text-align: center;
+            background: transparent;
+            position: absolute;
+            animation-name: animate;
+            animation-duration: 4s;
+            animation-delay: 0s;
+            animation-iteration-count: infinite;
+            background-color: red;
+        }
+        h1{
+            font-size: 25px;
+            color: white;
+            font-weight: 600;
+            line-height: 200px;
+        }
+        @keyframes animate{
+            
+            0%{
+                top: 0px;
+                left: 0px;
+                border-radius: 50%;
+            }
+            13%{
+                top: 200px;
+                left: 20%;
+                background-color: orangered;
+                border-radius: 50%;
+            }
+            26%{
+                top: 0px;
+                left: 40%;
+                background-color: purple;
+                border-radius: 50%;
+            }
+            39%{
+                top: 200px;
+                left: 60%;
+                background-color: blue;
+                border-radius: 50%;
+            }
+            52%{
+                top: 0px;
+                left: 82%;
+                background-color: skyblue;
+                border-radius: 50%;
+            }
+            65%{
+                top: 200px;
+                left: 60%;
+                background-color: blue;
+                border-radius: 50%;
+            }
+            78%{
+                top: 0px;
+                left: 40%;
+                background-color: purple;
+                border-radius: 50%;
+            }
+           91%{
+                top: 200px;
+                left: 20%;
+                background-color: orangered;
+                border-radius: 50%;
+            }
+            100%{
+                top: 0px;
+                left: 0px;
+                border-radius: 50%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div><h1>Catch me</h1></div>
+</body>
+</html>
