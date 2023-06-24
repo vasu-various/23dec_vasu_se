@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* headr start */
+header{
+    width: 100%;
+    height: 70px;
+    background-color: lightcoral;
+   
+}
+.tital{
+    color: black;
+    font-size: 33px;
+    text-align: center;
+    line-height: 70px;
+
+}
+/* Header End */
+
+/* Nav start */
+nav{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    position: sticky;
+    top: 1px;
+    left: 1px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 21px;
+    line-height: 50px;
+    padding: 5px;
+    margin: 0px 20px;
+    
+}
+/* Nav End */
