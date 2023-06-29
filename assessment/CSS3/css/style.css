@@ -21,7 +21,7 @@
     width: 100%;
     background-color: rgba(240, 240, 240,0.4);
     position: fixed;
-    z-index: 1;
+    z-index: 2;
 }
 .hh1{
     display: inline;
@@ -70,6 +70,7 @@
     height: 210px;
     width: 100%;
     position: absolute;
+    z-index: 1;
     top: 600px;
     left: 0px;
     display: flex;
@@ -98,8 +99,39 @@
     line-height: 35px;
 }
 
+
+
+.icon{
+    height: 70px;
+    margin-top: 20px;
+}
+.bs{
+    color: white;
+    font-size: 20px;
+}
+.bt{
+    color: white;
+    margin-top: 11px;
+    font-size: 12px;
+}
+
 .main{
     height: 900px;
     width: 100%;
     background-color: black;
+    position: relative;
+ 
+}
+.um{
+    position: absolute;
+    top: 250px;
+    color: white;
+    left: 37%;
+}
+.mhr{
+    position: absolute;
+    top: 280px;
+    color: white;
+   left: 60%;
+   
 }
