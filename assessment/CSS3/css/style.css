@@ -116,7 +116,7 @@
 }
 
 .main{
-    height: 900px;
+    height: 950px;
     width: 100%;
     background-color: black;
     position: relative;
@@ -128,10 +128,139 @@
     color: white;
     left: 37%;
 }
-.mhr{
+.mec{
+    height: 280px;
+    width: 300px;
+    background-color: white;
     position: absolute;
-    top: 280px;
-    color: white;
-   left: 60%;
+    top: 350px;
+   left: 50px;
+   border-radius: 20px;
    
+}
+.mec h1{
+    font-size: 17px;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+.mec p{
+    font-size: 13px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+.mec input{
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 50px;
+    margin-top: 25px;
+}
+.m1, .m2, .m3, .m4{
+    height: 250px;
+    width: 300px;
+    background-color: white;
+    position: absolute;
+    
+    
+    border-radius: 15px;
+}
+.m1{
+    top: 350px;
+    left: 450px;
+}
+.m1 img, .m2 img, .m3 img, .m4 img{
+    width: 300px;
+    height: 155px ;
+
+}
+.m1 h1, .m2 h1, .m3 h1, .m4 h1{
+    font-size: 15px;
+    margin-left: 25px;
+    margin-top: 12px;
+}
+.m1 p, .m2 p, .m3 p, .m4 p{
+    font-size: 12px;
+    margin-left: 25px;
+    margin-top: 12px;
+}
+.m2{
+    top: 350px;
+    left: 850px;
+}
+.m3{
+    top: 630px;
+    left: 450px;
+}
+.m4{
+    top: 630px;
+    left: 850px;
+}
+.main2{
+    height: 600px;
+    width: 100%;
+    border: solid;
+    background-image: url(../image/img3.jpg);
+    background-size: cover;
+}
+
+.blur{
+    height: 600px;
+    width: 100%;
+    background-color: rgba(1, 8, 15, 0.7);
+    position: relative;
+}
+.ab{
+    width: 500px;
+    height: 220px;
+    background-color: rgba(254, 254, 255, 0.5);
+    position: absolute;
+    top: 50px;
+    left: 100px;
+}
+.ab2{
+    width: 500px;
+    height: 220px;
+    background-color: rgba(254, 254, 255, 0.5);
+    position: absolute;
+    top: 310px;
+    left: 100px;
+}
+.ab h1, .ab2 h1{
+    color: white;
+    margin-top: 25px;
+    margin-left: 35px;
+    font-size: 18px;
+}
+.ab p, .ab2 p{
+    font-size: 16px;
+    margin-left: 35px;
+    margin-top: 30px;
+    margin-right: 30px;
+    color: white;
+}
+.ab input{
+    background-color: rgb(135, 40, 40);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 50px;
+    margin-top: 25px;
+    margin-left: 35px;
+}
+.ab2 input{
+    background-color: orangered;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 50px;
+    margin-top: 25px;
+    margin-left: 35px;
+}
+.htm{
+    background-color: white;
+    height: 480px;
+    width: 500px;
+    position: absolute;
+    top: 50px;
+    left: 700px;
+    border-radius: 25px;
 }
