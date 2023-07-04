@@ -341,3 +341,64 @@ span{
     margin-left: 5px;
     color: goldenrod;
 }
+.main4{
+    height: 500px;
+    width: 100%;
+    border: solid;
+    background-image: url(../image/main4.webp);
+    background-size: cover;
+}
+
+.blur4{
+    height: 500px;
+    width: 100%;
+    background-color: rgba(1, 8, 15, 0.7);
+    position: relative;
+}
+.blur4 h1{
+    color: white;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    font-size: 31px;
+}
+.vec1, .vec2, .vec3, .vec4{
+    height: 100px;
+    width: 200px;
+    position: absolute;
+    background-color: rgba(241, 241, 241, 0.5);
+    border-radius: 10px;
+    text-align: center;
+}
+.vec1{
+    top: 200px;
+    left: 100px;
+}
+.vec2{
+    top: 330px;
+    left: 100px;
+}
+.vec3{
+    top: 220px;
+    left: 350px;
+}
+.vec4{
+    top: 350px;
+    left: 350px;
+}
+
+.vec1 p, .vec2 p, .vec3 p, .vec4 p{
+    color: rgb(255, 214, 80);
+    font-size: 25px;
+    margin-top: 20px;
+}
+.vec1 h2, .vec2 h2, .vec3 h2, .vec4 h2{
+    font-size: 15px;
+    margin-top: 10px;
+    color: white;
+}
+video{
+    position: absolute;
+    top: 120px;
+    left: 670px;
+}
