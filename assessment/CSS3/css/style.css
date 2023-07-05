@@ -3,6 +3,7 @@
     padding: 0px;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
+   
 }
 .heading{
     height: 700px;
@@ -21,6 +22,8 @@
     width: 100%;
     background-color: rgba(240, 240, 240,0.4);
     position: fixed;
+    top: 0px;
+
     z-index: 2;
 }
 .hh1{
@@ -401,4 +404,75 @@ video{
     position: absolute;
     top: 120px;
     left: 670px;
+}
+
+.footer{
+    background-color: black;
+    height: 500px;
+    width: 100%;
+    position: relative;
+}
+.f1{
+    background-color: white;
+    height: 300px;
+   width: 800px;
+   position: absolute;
+   top: 100px;
+   left: 100px; 
+   border-radius: 25px;
+}
+.f1 h2{
+    font-size: 21px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.form{
+    width: 750px;
+    height: 100px;
+    margin-left: 35px;
+    margin-top: 30px;
+    
+}
+.i2,.i3{
+    margin-left: 80px;
+    color: gray;
+    border: none;
+}
+.i1{
+    color: gray;
+    border: none;
+}
+.i4{
+    margin-top: 20px;
+    color: gray;
+    border: none;
+}
+.i5{
+    background-color: brown;
+    padding: 5px 15px;
+    color: white;
+    border-radius: 50px;
+    margin-top: 55px;
+    margin-left: 30px;
+}
+.f2{
+    background-color: rgb(157, 37, 37);
+    height: 350px;
+    width: 250px;
+    position: absolute;
+    top: 75px;
+    left: 950px;
+    border-radius: 25px;
+    color: white;
+
+}
+.f2 h3{
+    margin-top: 30px;
+    margin-left: 50px;
+    font-size: 12px;
+}
+.f2 h4{
+    margin-top: 10px;
+    margin-left: 50px;
+    font-size: 17px;
 }
