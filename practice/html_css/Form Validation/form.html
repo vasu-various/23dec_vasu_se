@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Vasu</title>
+</head>
+<body>
+    <fieldset >
+        <legend>Personal Details</legend>
+        <form action="">
+            <label for="salutation">salutation</label>
+            <select name="cars" id="cars">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+            </select>
+            <br><br>
+            <label for="fnm">First name</label>
+            <input type="text" required>
+            <br><br>
+            <label for="lnm">Last name</label>
+            <input type="text" required pattern="[a-z] {0-9}" maxlength="10" minlength="5">
+            <br><br>
+            <label for="Gender">Gender</label>
+            <input type="radio" name="gender">Male
+            <input type="radio" name="gender">Female
+            <input type="radio" name="gender">Other
+            <br><br>
+            <label for="email">Email</label>
+            <input type="email" required>
+            <br><br>
+            <label for="date">Date of birth</label>
+            <input type="Date" required>
+            <br><br>
+            <label for="add">Address</label><br>
+            <textarea name="add" id="" cols="30" rows="3"></textarea>
+            <br><br>
+            <input type="submit" value="submit"> 
+        </form>
+    </fieldset>
+</body>
+</html>
