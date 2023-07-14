@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.header{
+    height: 70px;
+    width: 100%;
+    background-color: black;
+}
+body{
+    background-color: lightcoral;
+}
+.main{
+    height: 500px;
+    width: 100%;
+    border: solid;
+    position: relative;
+}
+.main img{
+    height: 400px;
+   position: absolute;
+   top: 50px;
+   left: 150px;
+}
+.d{
+    font-size: 22px;
+    position: absolute;
+    top: 50px;
+    left: 800px;
+    margin-right: 40px;
+}
+button{
+    font-size: 22px;
+    position: absolute;
+    top: 220px;
+    left: 800px;
+    margin-right: 40px;
+}
