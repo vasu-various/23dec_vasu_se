@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nested Loop</title>
+</head>
+<body>
+    <h1>1 to 15 Pyramid</h1>
+    
+
+    <script>
+        let i, j, count=1;
+        for(i = 1; i <= 5; i++) //outer loop (use for the row)
+        {
+            for(j = 1; j <= i; j++) //inner loop (use for the column)
+            {
+                document.write(count + " ");
+                count++;
+            }
+            document.write("<br>");
+        }
+    </script>
+   
+</body>
+</html>
