@@ -85,13 +85,20 @@
     color: white;
 }
 .qa{
-    height: 100px;
+    height: 600px;
     width: 100%;
     background-color: skyblue;
+    text-align: center;
+    position: relative;
 }
-.qa a{
-    font-size: 18px;
-    color: black;
-    margin-left: 80px;
-    margin-top: 5px;
+.qua{
+    color: rgb(14, 56, 92);
+    font-size: 22px;
+    
+}
+
+.footer{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(14, 56, 92);
 }
