@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q.17</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body
+        {
+            background-color: rgb(255, 221, 209);
+        }
+    </style>
+</head>
+<body>
+    <h1 class="Q">Q.17 What are the disadvantages of using innerHTML in JavaScript?</h1>
+    <ul class="ans">
+        <li>Using innerHTML in JavaScript can be convenient for manipulating and updating the content of HTML elements, but it also comes with some disadvantages and potential risks. Here are some of the key disadvantages of using innerHTML:</li>
+        <li>When you use innerHTML to update the content of an element, it completely replaces the existing content, including any event listeners that were attached to the original content. </li>
+        <li>Using innerHTML to modify large portions of your HTML content can be less efficient compared to other methods like DOM manipulation. </li>
+        <li>When you set the innerHTML of an element, the browser has to parse and recreate the entire subtree, which can impact performance, specially for complex structures.</li>
+        <li>Manipulating the innerHTML property can have unintended side effects on the layout, rendering, and behavior of your page. </li>
+        <li>While innerHTML is widely supported in modern browsers, there might still be inconsistencies in behavior or compatibility with older browsers or non-standard environments.</li>
+      </ul>
+</body>
+</html>
